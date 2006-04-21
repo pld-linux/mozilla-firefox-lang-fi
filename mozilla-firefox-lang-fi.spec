@@ -1,5 +1,5 @@
 
-%define         _lang		fi
+%define		_lang		fi
 
 Summary:	Finnish resources for Mozilla-firefox
 Summary(pl):	Fiñskie pliki jêzykowe dla Mozilli-firefox
