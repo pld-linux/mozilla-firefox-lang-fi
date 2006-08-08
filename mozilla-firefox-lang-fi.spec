@@ -4,12 +4,12 @@
 Summary:	Finnish resources for Mozilla-firefox
 Summary(pl):	Fiñskie pliki jêzykowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	1.5.0.4
+Version:	1.5.0.6
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	69b5ff83295c99d865e3064c845fb007
+# Source0-md5:	3a0886ffb20b1951a5c4b3808bbdd62d
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires(post,postun):	mozilla-firefox >= %{version}
