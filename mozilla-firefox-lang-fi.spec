@@ -1,22 +1,21 @@
-
 %define		_lang		fi
-
 Summary:	Finnish resources for Mozilla-firefox
 Summary(pl.UTF-8):	Fińskie pliki językowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	2.0.0.1
+Version:	2.0.0.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	d4b21e08e57bbf7a9f86581dbd6c011f
+# Source0-md5:	386363f2406caaf1a0190a54d7fcaf26
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_firefoxdir	%{_libdir}/mozilla-firefox
+%define		_firefoxdir	%{_datadir}/mozilla-firefox
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
