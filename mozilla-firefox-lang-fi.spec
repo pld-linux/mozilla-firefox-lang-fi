@@ -1,13 +1,13 @@
 %define		_lang		fi
-Summary:	Finnish resources for Mozilla-firefox
-Summary(pl.UTF-8):	Fińskie pliki językowe dla Mozilli-firefox
+Summary:	Finnish resources for Firefox
+Summary(pl.UTF-8):	Fińskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	23dcbab3f440447beed2c7eb84693282
+# Source0-md5:	5f3181ec9eba2aa29e256928842b0a47
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Finnish resources for Mozilla-firefox.
+Finnish resources for Firefox.
 
 %description -l pl.UTF-8
-Fińskie pliki językowe dla Mozilli-firefox.
+Fińskie pliki językowe dla Firefoksa.
 
 %prep
 
